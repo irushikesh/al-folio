@@ -12,7 +12,6 @@ If you like the theme, give it a star!
 
 [![Preview](assets/img/al-folio-preview.png)](https://irushikesh.github.io/al-folio/)
 
-
 ## User community
 
 The vibrant community of **al-folio** users is growing!
@@ -20,16 +19,14 @@ Academics around the world use this theme for their homepages, blogs, lab pages,
 Check out the community webpages below.
 Feel free to add your own page(s) by sending a PR.
 
-
 ## Getting started
 
 For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read this [blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
 
-
 ### Installation
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (_hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)_), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
@@ -45,6 +42,7 @@ Now, you can deploy your website to [GitHub Pages](https://pages.github.com/) by
 ```bash
 $ ./bin/deploy [--user]
 ```
+
 By default, the script uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
 The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
 Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
@@ -55,7 +53,6 @@ Using `master` for deployment is a convention for [user and organization pages](
 url:  # should be empty
 baseurl:  # should be empty
 ```
-
 
 ### Upgrading from a previous version
 
@@ -73,7 +70,6 @@ You can still follow the steps above, but `git rebase` may result in merge confl
 See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
 If rebasing is too complicated, we recommend to re-install the new version of the theme from scratch and port over your content and changes from the previous version manually.
 
-
 ## Features
 
 ### Publications
@@ -86,7 +82,6 @@ Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll 
 
 <p align="center"><img src="assets/img/publications-screenshot.png" width=800></p>
 
-
 ### Collections
 
 This Jekyll theme implements `collections` to let you break up your work into categories.
@@ -98,7 +93,6 @@ Items from the `projects` collection are displayed on a responsive grid on proje
 
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is.
 To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
-
 
 ### Layouts
 
@@ -132,15 +126,16 @@ Easily create beautiful grids within your blog posts and project pages:
   </a>
 </p>
 
-
 ### Other features
 
 #### Theming
+
 Six beautiful theme colors have been selected to choose from.
 The default is purple, but you can quickly change it by editing `$theme-color` variable in the `_sass/variables.scss` file.
 Other color variables are listed there as well.
 
 #### Social media previews
+
 **al-folio** supports preview images on social media.
 To enable this functionality you will need to set `serve_og_meta` to `true` in your `_config.yml`.
 Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
@@ -150,7 +145,6 @@ This can be configured on a per-page basis, by setting the `og_image` page varia
 If for an individual page this variable is not set, then the theme will fall back to a site-wide `og_image` variable, configurable in your `_config.yml`.
 In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
 
-
 ## Contributing
 
 Contributions to al-folio are very welcome!
@@ -158,7 +152,6 @@ Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
 
 If you would like to improve documentation, add your webpage to the list below, or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`.
 For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
-
 
 ## FAQ
 
@@ -174,7 +167,6 @@ If you have a different question, please ask on [gitter](https://gitter.im/alshe
    How do I fix this? <br>
    **A:** For personal webpages, please run `bin/deploy --user`.
    (See also relevant past issues: [#5](https://github.com/alshedivat/al-folio/issues/5), [#49](https://github.com/alshedivat/al-folio/issues/49), [#86](https://github.com/alshedivat/al-folio/issues/86).)
-
 
 ## License
 
